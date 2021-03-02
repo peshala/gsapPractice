@@ -1,0 +1,68 @@
+.aboutDevice {
+    width: 100%;
+    background-color: black;
+    position: relative;
+    padding: 60px 0px;
+    height: 100vh;
+    .topSection {
+        max-width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+        &__title{
+            &--Top {
+                font-size: 28px;
+                font-weight: 600;
+                color: white;
+                text-align: center;
+            }
+            &--Middle {
+                font-size: 80px;
+                font-weight: 600;
+                color: white;
+                padding: 20px 0px;
+                text-align: center;
+            }
+            &--Bottom {
+                font-size: 18px;
+                font-weight: 600;
+                color: white;
+                text-align: center;
+            }
+        }
+    }
+
+    .bottomSection {
+        max-width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 30px;
+        position: relative;
+        &____content {
+
+        }
+        .phoneContainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            position: relative;
+            &__left {
+                position: absolute;
+                // left: 20px;
+                z-index: 2;
+            }
+            &__center {
+                position: absolute;
+                z-index: 3;
+            }
+            &__right {
+                position: absolute;
+                // right: 20px;
+                z-index: 1;
+            }
+        }
+    }
+}
