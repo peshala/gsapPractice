@@ -10,9 +10,7 @@ const Header = () => {
                 <div className='container'>
                     <div className='headerSection__heroText'>
                         <div className='headerSection__title'>
-                            Creating uniques brands is
-                </div>
-                        <div className='headerSection__title'>
+                            Creating uniques brands is <br></br>
                             What we do
                 </div>
                     </div>

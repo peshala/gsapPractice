@@ -1,6 +1,6 @@
 .introOverlay {
     &__top {
-        height: 50vh;
+        height: 70vh;
         position: absolute;
         width: 100%;
         z-index: 8;
@@ -32,12 +32,15 @@
     }
 
     &__bottom {
-        height: 50vh;
+        height: 30vh;
         position: absolute;
         width: 100%;
         z-index: 8;
         bottom: 0;
         overflow: hidden;
+        @include media("<=tablet") {
+            height: 100%;
+        }
         &__section {
             position: absolute;
             height: 100%;
