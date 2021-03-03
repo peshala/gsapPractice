@@ -1,0 +1,72 @@
+    
+.sectionFive {
+    background-color: white; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin-top: 50px;
+	.second-container {
+		text-align: left;
+		@media (max-width: 425px) {
+			text-align: center;
+		}
+		.container-one {
+			font-family: Poppins;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			color: #EB5757;
+			padding: 10px 0px;
+
+			@media (max-width: 768px) {
+				font-size: 14px;
+				line-height: 0px;
+			}
+		}
+		.container-two {
+			font-family: Poppins;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 36px;
+			line-height: 45px;
+			padding: 10px 0px;
+			color: #171717;
+			@media (max-width: 768px) {
+				font-size: 25px;
+				line-height: 30px;
+			}
+		}
+		.container-three {
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: 300;
+			font-size: 18px;
+			line-height: 26px;
+			padding: 10px 0px;
+			color: #171717;
+			@media (max-width: 768px) {
+				font-size: 15px;
+				line-height: 27px;
+			}
+		}
+        .imageContainer {
+            text-align: center;
+            .image-bottom {
+                text-align: left;
+            }
+            .image-outline {
+                position: absolute;
+            }
+            .image-full {
+                position: absolute;
+                width: 10%;
+            }
+            .image-full2 {
+                position: absolute;
+                width: 30%;
+                bottom: 0;
+                right: 0;
+            }
+        }
+	}
+}

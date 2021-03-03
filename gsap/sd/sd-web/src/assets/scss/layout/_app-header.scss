@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/*==============================
+=            Header            =
+==============================*/
+
+/* app header */
+.app--header{
+    
+    position: relative;
+    min-height: 810px;
+    z-index: 100;
+
+    @media screen and (max-width: $big-mobile) {
+        min-height: 600px;
+    }
+    @media screen and (max-width: $small-mobile) {
+        min-height: 500px;
+    }
+
+}
+
+/*=====  End of Header  ======*/

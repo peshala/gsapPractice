@@ -1,0 +1,92 @@
+    
+.sectionTwo {
+    background-color: white; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	overflow: hidden;
+	@media (max-width: 425px) {
+		background-size: contain;
+	}
+	.second-container {
+		text-align: left;
+		@media (max-width: 425px) {
+			text-align: center;
+		}
+		.container-one {
+			font-family: Poppins;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			color: #EB5757;
+			padding: 10px 0px;
+
+			@media (max-width: 768px) {
+				font-size: 14px;
+				line-height: 0px;
+			}
+		}
+		.container-two {
+			font-family: Poppins;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 36px;
+			line-height: 45px;
+			padding: 10px 0px;
+			color: #171717;
+			@media (max-width: 768px) {
+				font-size: 25px;
+				line-height: 30px;
+			}
+		}
+		.container-three {
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: 300;
+			font-size: 18px;
+			line-height: 26px;
+			padding: 10px 0px;
+			color: #171717;
+			@media (max-width: 768px) {
+				font-size: 15px;
+				line-height: 27px;
+			}
+		}
+	}
+
+	
+	.imgae-container {
+		right: -200px;
+		position: absolute;
+		top: -30px;
+		bottom: 0px;
+		z-index: 100;
+		@media (max-width: 768px) {
+			position: relative;
+		}
+		img {
+			width: 80%;
+		}
+	}
+}
+
+.v-centered {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.ribbonRight {
+    position: absolute;
+    right: -94px;
+    top: -227px;
+    z-index: 50;
+}
+
+
+.ribbonLeft {
+    position: absolute;
+    left: -70px;
+    z-index: 50;
+}

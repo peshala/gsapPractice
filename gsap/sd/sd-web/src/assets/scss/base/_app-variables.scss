@@ -1,0 +1,234 @@
+@charset "UTF-8";
+
+/*============================
+=            Type            =
+============================*/
+
+$font-size-xs : 11px;
+$font-size-sm : 13px;
+$font-size-md : 14px;
+$font-size-lg : 16px;
+$font-size-xl : 18px;
+$font-size-xxl : 30px;
+$font-size-xxxl : 38px;
+
+$font-weight-xs : 100;
+$font-weight-sm : 300;
+$font-weight-md : 400;
+$font-weight-lg : 500;
+$font-weight-xl : 700;
+
+/*=====  End of Type  ======*/
+
+
+/*===================================
+=            Type colors            =
+===================================*/
+
+$text-primary-color : #6e7d9c;
+$text-priority-color : #17233c;
+$text-secondary-color : #8a93a6;
+$text-title-color : #304e66;
+$text-minority-color : #7b97ad;
+$text-light-color : $text-secondary-color;
+
+/*=====  End of Type colors  ======*/
+
+
+/*==================================
+=            App colors            =
+==================================*/
+
+$app-priority:        #17233c !default;
+$app-primary:         #0078FF !default;
+$app-secondary:       darken(#428bca, 6.5%) !default; // #337ab7
+$app-success:         $green !default;
+$app-info:            #5bc0de !default;
+$app-default:         #6e7d9c !default;
+$app-warning:         $orange !default;
+$app-danger:          $red !default;
+$app-dark: 		  	  #1b2631;
+$app-dark-light:  	  lighten(#1b2631, 4%);
+
+$app-hover: 		  $lighter-blue;
+
+/*=====  End of App colors  ======*/
+
+
+
+/*============================
+=            Body            =
+============================*/
+
+$body-bg: $lighter-blue;
+$app-font-family: $roboto;
+
+$app-default-border: #dee8f2;
+$app-input-border: #dde4ea;
+$separator-color: #edf4f9;
+
+$theme-border-color : #ebedf2;
+
+/*=====  End of Body  ======*/
+
+
+
+//=======================================
+//            Responsive sizes           
+//=======================================
+
+$large-desktop : 2560px;
+$small-desktop : 1024px;
+$smaller-desktop : 992px;
+$tablet : 769px;
+$big-mobile : 680px;
+$big-mobile-horizontal : 680px;
+$small-mobile : 375px;
+$small-mobile-horizontal : 480px;
+
+//=====  End of Responsive sizes  =======
+
+
+//==============================
+//=            Body            =
+//==============================
+
+
+$am-label-color : #627584;
+
+$am-text-color : #426a89;
+
+//=====  End of Body  ========
+
+
+//================================
+//=            Header            =
+//================================
+
+$header-bg-color : $white;
+$header-height : 70px;
+$header-profile-name-color : #627584;
+
+//======  End of Header  ======
+
+
+//==================================
+//=           Sidebar Nav           
+//==================================
+
+$sidebar-bg-color: $dark-blue;
+$sidebar-width: 70px;
+$sidebar-active-width: 200px;
+$sidebar-height: 100%;
+$sidebar-mobile-width: 50px;
+$sidebar-mobile-active-width: 90%;
+
+//======  End of Sidebar Nav  ======
+
+
+//=============================
+//=           Footer           
+//=============================
+
+$footer-color: #8faabf;
+$footer-bg-color : $light-blue;
+$footer-border-color : #d7e1e8;
+$footer-height : 40px;
+
+//=====  End of Footer  ======
+
+
+
+
+///*========================================
+//=            Container Header            =
+//========================================*/
+
+$am-container-header-height: 45px;
+
+$am-page-title-color : #304e66;
+$am-page-description-color : #8faabf;
+
+$am-page-actions-color: $am-page-description-color;
+$am-page-actions-height: 35px;
+
+///*=====  End of Container Header  ======*/
+
+
+/*==================================
+=            Board Menu            =
+==================================*/
+
+$am-board-menu-width : 400px;
+$am-board-menu-bg : $white;
+// $am-boardmenu-top-border-color : $am-brand-primary;
+$am-boardmenu-toggle-width : $sidebar-width;
+
+
+/*=====  End of Board Menu  ======*/
+
+
+/*==================================
+=            Window box            =
+==================================*/
+
+$window-box-bg : $white;
+$window-padding : 30px;
+$window-box-header-height : 35px;
+
+/*=====  End of Window box  ======*/
+
+
+/*=======================================
+=            am Alert boxes            =
+=======================================*/
+
+$am-alert-padding:               10px 15px !default;
+$am-alert-border-radius:         3px !default;
+$am-alert-link-font-weight:      bold !default;
+
+$am-alert-success-bg:            $green !default;
+$am-alert-success-text:          $white !default;
+$am-alert-success-border:        $green !default;
+
+// $am-alert-info-bg:               $state-info-bg !default;
+// $am-alert-info-text:             $state-info-text !default;
+// $am-alert-info-border:           $state-info-border !default;
+// 
+// $am-alert-warning-bg:            $state-warning-bg !default;
+// $am-alert-warning-text:          $state-warning-text !default;
+// $am-alert-warning-border:        $state-warning-border !default;
+// 
+// $am-alert-danger-bg:             $state-danger-bg !default;
+// $am-alert-danger-text:           $state-danger-text !default;
+// $am-alert-danger-border:         $state-danger-border !default;
+
+/*=====  End of am Alert boxes  ======*/
+
+
+/*==================================
+=            Login Page            =
+==================================*/
+
+$am-login-window-width: 400px !default;
+$am-forgot-pw-link-color: #80a5c1 !default;
+$am-forgot-pw-link-hover-color: red !default;
+
+/*=====  End of Login Page  ======*/
+
+
+
+
+/*==================================
+=            Breadcrumb            =
+==================================*/
+
+$am-breadcrumb-bg : $white;
+
+/*=====  End of Breadcrumb  ======*/
+
+
+
+
+
+

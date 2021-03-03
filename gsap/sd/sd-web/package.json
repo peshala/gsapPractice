@@ -1,0 +1,38 @@
+{
+  "name": "NYMUN ",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "*",
+    "del": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-bower": "*",
+    "gulp-cache": "*",
+    "gulp-cssnano": "*",
+    "gulp-if": "*",
+    "gulp-imagemin": "*",
+    "gulp-inject": "*",
+    "gulp-sass": "*",
+    "gulp-sass-glob": "*",
+    "gulp-sass-lint": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "gulp-useref": "*",
+    "main-bower-files": "*",
+    "run-sequence": "*"
+  },
+  "dependencies": {
+    "gulp4-run-sequence": "^1.0.1",
+    "material-design-icons": "^3.0.1",
+    "natives": "^1.1.6",
+    "path-exists": "^3.0.0",
+    "rellax": "^1.10.0"
+  }
+}

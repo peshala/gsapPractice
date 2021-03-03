@@ -1,0 +1,70 @@
+    
+.sectionEight {
+  background-color: #F9F9F9; 
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	@media (max-width: 1440px) {
+		background-size: contain;
+	}
+	.second-container {
+		text-align: center;
+		@media (max-width: 425px) {
+			text-align: center;
+		}
+		.container-one {
+			font-family: Poppins;
+			font-style: normal;
+			font-weight: bold;
+      font-size: 36px;
+      line-height: 45px;
+			color: #171717;
+			padding: 15px 0px;
+
+			@media (max-width: 768px) {
+				font-size: 14px;
+				line-height: 0px;
+			}
+		}
+		.container-two {
+			font-family: Poppins;
+      font-size: 20px;
+			padding: 15px 0px;
+			color: #171717;
+			@media (max-width: 768px) {
+				font-size: 25px;
+				line-height: 30px;
+			}
+		}
+		.container-three {
+			font-family: Roboto;
+			font-style: normal;
+			font-weight:200;
+			font-size: 20px;
+			padding: 15px 0px;
+			color: #171717;
+			@media (max-width: 768px) {
+				font-size: 15px;
+				line-height: 27px;
+			}
+		}
+	}
+
+	
+	.imgae-container {
+		position: absolute;
+		left: 50;
+		margin-top: 50px;
+		@media (max-width: 768px) {
+			position: relative;
+		}
+		img {
+			width: 100%;
+		}
+	}
+}

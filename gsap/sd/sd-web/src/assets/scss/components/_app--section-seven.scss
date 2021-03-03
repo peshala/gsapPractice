@@ -1,0 +1,17 @@
+.app--section-seven{
+    padding: 80px 0px;
+    float: left;
+    width: 100%;
+    background-color: white;
+    color: $primary-text;
+    overflow: hidden;
+
+    @media screen and (max-width: $tablet) {             
+        padding: 90px 0px;       
+    }
+    
+    @media screen and (max-width: $small-mobile) {             
+        padding: 50px 0px;       
+    }
+
+}

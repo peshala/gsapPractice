@@ -1,0 +1,86 @@
+
+header {
+    width: 100%;
+    z-index: 10000;
+    background: #222222;
+    position: absolute;
+    top: 0;
+    display: flex !important;
+    justify-content: space-around;
+    // padding: 10px 20px 10px 20px;
+    
+    .logo {
+      position: relative;
+      top: 0;
+      left: 0;
+      font-size: 20px;
+      font-weight: 100;
+      padding: 10px;
+
+      img {
+          width: 15%;
+      }
+    }
+
+    .menu {
+        width: 100%;
+        text-align: right; 
+        display: flex;
+        justify-content: flex-end;
+    }    
+  }
+  
+  .link {
+    display: inline-block;
+    margin: 15px 25px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    -webkit-transition: width 2s; /* Safari prior 6.1 */
+    transition: width 2s;
+
+    .bar {
+      width: 0%;
+      display: inline-block;
+      border-bottom: 3px solid #EB5757;
+      position: absolute;
+      bottom: 10;
+      left: 0;
+      opacity: 0;
+      transition: all 300ms;
+    }
+    a {
+      text-decoration: none;
+    }
+    &:hover {
+      .link {
+        color: white;
+
+      }
+      .bar {
+        width: 100%;
+        opacity: 1;
+      }
+    }
+  }
+
+  .sticky {
+    background: #fff;
+    box-shadow: 0 3px 12px 0 rgba(0,0,0,.08);
+    position: fixed;
+    top: 0;
+    transition: 3ms;
+    width: 100%;
+    z-index: 2000;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 50px 10px 50px;
+
+    .link {
+        color: black;
+    }
+
+}

@@ -1,0 +1,57 @@
+    
+.sectionThree {
+	background-image: url('../images/backgroundLinev2.png');
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	height: 100vh;
+	@media (max-width: 425px) {
+		background-size: contain;
+	}
+    .second-container {
+		text-align: right;
+		@media (max-width: 425px) {
+			text-align: center;
+		}
+		.container-one {
+			font-family: Poppins;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 45px;
+			color: #EB5757;
+			padding: 10px 0px;
+			@media (max-width: 768px) {
+				font-size: 14px;
+				line-height: 0px;
+			}
+		}
+		.container-two {
+			font-family: Poppins;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 36px;
+			line-height: 45px;
+			padding: 10px 0px;
+			color: white;
+			@media (max-width: 768px) {
+				font-size: 25px;
+				line-height: 30px;
+			}
+		}
+		.container-three {
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: 200;
+			font-size: 18px;
+			line-height: 26px;
+			padding: 10px 0px;
+			color: white;
+			@media (max-width: 768px) {
+				font-size: 15px;
+				line-height: 27px;
+			}
+		}
+	}
+}

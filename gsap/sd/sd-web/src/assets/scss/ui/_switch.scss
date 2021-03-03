@@ -1,0 +1,77 @@
+/*==============================
+=            Switch            =
+==============================*/
+
+$switch-width : 40px;
+$switch-height : 23px;
+$switch-border-radius : 22px;
+$switch-bg-color : #fff;
+$switch-inactive-color : $app-default-border;
+
+.switch {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  font-size: 0;
+
+  label {
+    margin: 0;
+  }
+
+  input {
+    position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;
+
+    & + label {
+      position: relative;
+      cursor: pointer;
+      outline: none;
+      user-select: none;
+      padding: 1px;
+      width: $switch-width;
+      height: $switch-height;
+      background-color: $switch-inactive-color;
+      border-radius: $switch-border-radius;
+      transition: background 0.4s;
+
+      &:before,
+      &:after {
+        display: block;
+        position: absolute;
+        content: "";
+      }
+
+      &:before {
+        top: 2px;
+        left: 2px;
+        bottom: 2px;
+        right: 2px;
+        background-color: $switch-bg-color;
+        border-radius: $switch-border-radius;
+        transition: background 0.4s;
+      }
+
+      &:after {
+        top: 4px;
+        left: 4px;
+        bottom: 4px;
+        width: $switch-width / 2;
+        background-color: $switch-inactive-color;
+        border-radius: $switch-border-radius;
+        transition: margin 0.4s, background 0.4s;
+      }
+    }
+
+    &:checked + label {
+      background-color: $brand-primary;
+
+      &:after {
+        margin-left: ($switch-width / 2) - 8px;
+        background-color: $brand-primary;
+      }
+    }
+  }
+}
+
+/*=====  End of Switch  ======*/

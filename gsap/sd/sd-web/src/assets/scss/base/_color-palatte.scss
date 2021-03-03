@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+$text-blue : #5b6879;
+$dark-blue : #1B2631;
+$light-blue : #e5edf3;
+$lighter-blue : #EEF2F5;
+$gray : #C8D0D9;
+//$green : #06ba30;
+$pink : #fd406c;
+
+$light-text: #8faabf;
+$form-label-color: #426a89;
+
+$secondary-text:#656b6f;
+$primary-text:#3b3d40;
+
+
+
+//* Refer http://flatuicolors.com
+
+//* Please note that slight changes has been done to original 
+//* flatuicolors color palette to match Phoenix Theme.
+
+// -------------------------
+
+$black 			: #333333;
+
+// White shade
+$white 			: #FFFFFF;
+$clouds			: #ecf0f1;
+$silver			: #bdc3c7;
+$concrete		: #95a5a6;
+$asbestos		: #7f8c8d;
+
+// Blue shade
+$primary-blue 	: #0078FF;
+$info-blue 		: #0069E0;
+$beliz-hole		: #3392FF;
+
+// Sea green shade
+$turquoise		: #1abc9c;
+$green-sea		: #16a085;
+
+// Green shade
+$green 			: #06ba30;
+$emerald		: #2ecc71;
+$nephritis		: #27ae60;
+
+// Purple shade
+$amethyst		: #9b59b6; //* Light purple
+$wisteria		: #8e44ad; //* Purple
+
+// Darker blue shade
+$wet-asphalt	: #34495e;
+$midnight-blue	: #2c3e50;
+
+// Yellow shade
+$yellow			: #FFFF03;
+$sun-flower		: #f1c40f;
+$orange			: #f39c12;
+$carrot			: #e67e22;
+$pumpkin		: #d35400;
+
+// Red shade
+$red			: #f4516c;
+$pomegranate	: #c0392b;
+
+
+// Text colors classes
+// -------------------------
+
+.black 				{ color: $black; }
+.white 				{ color: $white; }
+.clouds				{ color: $clouds; }
+.silver				{ color: $silver; }
+.concrete			{ color: $concrete; }
+.asbestos			{ color: $asbestos; }
+.primary-blue 		{ color: $primary-blue; }
+.info-blue 			{ color: $info-blue; }
+.beliz-hole			{ color: $beliz-hole; }
+.turquoise			{ color: $turquoise; }
+.green-sea			{ color: $green-sea; }
+.green 				{ color: $green; }
+.emerald			{ color: $emerald; }
+.nephritis			{ color: $nephritis; }
+.amethyst			{ color: $amethyst; }
+.wisteria			{ color: $wisteria; }
+.wet-asphalt		{ color: $wet-asphalt; }
+.midnight-blue		{ color: $midnight-blue; }
+.yellow				{ color: $yellow; }
+.sun-flower			{ color: $sun-flower; }
+.orange				{ color: $orange; }
+.carrot				{ color: $carrot; }
+.pumpkin			{ color: $pumpkin; }
+.red				{ color: $red; }
+.pomegranate		{ color: $pomegranate; }
+
+
+// Background colors classes
+// -------------------------
+
+.black-bg 			{ background-color: $black !important; }
+.white-bg 			{ background-color: $white !important; }
+.clouds-bg			{ background-color: $clouds !important; }
+.silver-bg			{ background-color: $silver !important; }
+.concrete-bg		{ background-color: $concrete !important; }
+.asbestos-bg		{ background-color: $asbestos !important; }
+.primary-blue-bg 	{ background-color: $primary-blue !important; }
+.info-blue-bg 		{ background-color: $info-blue !important; }
+.beliz-hole-bg		{ background-color: $beliz-hole !important; }
+.turquoise-bg		{ background-color: $turquoise !important; }
+.green-sea-bg		{ background-color: $green-sea !important; }
+.green-bg 			{ background-color: $green !important; }
+.emerald-bg			{ background-color: $emerald !important; }
+.nephritis-bg		{ background-color: $nephritis !important; }
+.amethyst-bg		{ background-color: $amethyst !important; }
+.wisteria-bg		{ background-color: $wisteria !important; }
+.wet-asphalt-bg		{ background-color: $wet-asphalt !important; }
+.midnight-blue-bg	{ background-color: $midnight-blue !important; }
+.yellow-bg			{ background-color: $yellow !important; }
+.sun-flower-bg		{ background-color: $sun-flower !important; }
+.orange-bg			{ background-color: $orange !important; }
+.carrot-bg			{ background-color: $carrot !important; }
+.pumpkin-bg			{ background-color: $pumpkin !important; }
+.red-bg				{ background-color: $red !important; }
+.pomegranate-bg		{ background-color: $pomegranate !important; }

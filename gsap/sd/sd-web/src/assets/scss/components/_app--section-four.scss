@@ -1,0 +1,53 @@
+    
+.sectionFour {
+	background-image: url('../images/backgroundLinev2.png');
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    @media (max-width: 425px) {
+		background-size: contain;
+	}
+    .second-container {
+        text-align: left;
+        position: relative;
+        @media (max-width: 425px) {
+			text-align: center;
+		}
+        .text-container {
+            .container-one {
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 45px;
+                color: #EB5757;
+                padding: 15px 0px;
+            }
+            .container-two {
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 56px;
+                line-height: 62px;
+                padding: 15px 0px;
+                color: white;
+                @media (max-width: 768px) {
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+            }
+        }
+	
+        img {
+            position: absolute;
+            top: 0;
+            left: -500PX;
+            z-index: 1;
+            opacity: 0.5;
+        }
+	}
+}
